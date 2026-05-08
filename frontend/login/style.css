@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+div {
+    height: 100vh;
+    margin-right: 25vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.campo {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    padding: 5px 0px 5px 5px;
+}
